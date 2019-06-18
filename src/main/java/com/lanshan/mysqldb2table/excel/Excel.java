@@ -9,7 +9,12 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
-public class Excel extends ExcelStandImpl implements ExcenStand{
+/**
+ * 
+ * @author liyuchen
+ *
+ */
+public class Excel implements ExcelStand{
 	
 	public  void createExcel() {
 		// 获取数据
@@ -32,7 +37,7 @@ public class Excel extends ExcelStandImpl implements ExcenStand{
 
 		// 创建HSSFWorkbook
 		HSSFWorkbook wb = getHSSFWorkbook(sheetName, title, content, null);
-		createFile(wb);
+		createFile();
 	}
 
 	public static HSSFWorkbook getHSSFWorkbook(String sheetName, String[] title, String[][] values, HSSFWorkbook wb) {
@@ -57,5 +62,17 @@ public class Excel extends ExcelStandImpl implements ExcenStand{
 		createCell.setCellValue("test");
 
 		return wb;
+	}
+
+	@Override
+	public HSSFWorkbook getWorkbook() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPath() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

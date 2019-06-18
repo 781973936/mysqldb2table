@@ -1,6 +1,7 @@
 package com.lanshan.mysqldb2table;
 
-import com.lanshan.mysqldb2table.excel.Excel;
+import com.lanshan.mysqldb2table.excel.ExcelStand;
+import com.lanshan.mysqldb2table.excel.TotalTableInfo;
 
 /**
  * Hello world!
@@ -9,8 +10,10 @@ import com.lanshan.mysqldb2table.excel.Excel;
 public class App 
 {
 	public static void main(String[] args) {
-		Excel excel = new Excel();
-		excel.createExcel();
+		ExcelStand excel = new TotalTableInfo();
+		excel.createFile();
+		
+		System.out.println("生成完毕！");
 	}
 
 }
