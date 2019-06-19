@@ -38,14 +38,18 @@
     
 <div>
 	<img src="https://raw.githubusercontent.com/781973936/image/master/info.png"></img>
-<table border="0">
-  <tr>
-    <th>one</th>
-    <th>two</th>
-  </tr>
-  <tr>
-    <td>Hello</td>
-    <td>你好</td>
-  </tr>
-</table>
+<div>
+	
+### 获取物理表
+	public class App 
+	{
+		public static void main(String[] args) {
+			ExcelStand excel = new TotalTableInfo();
+			excel.createFile();
+			System.out.println("生成完毕！");
+		}
+	}
+<div>
+	<img src="https://raw.githubusercontent.com/781973936/image/master/info.png"></img>
+<div>
 
