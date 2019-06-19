@@ -1,4 +1,33 @@
 # mysqldb2table
+
+## 具体使用
+### 获取表概况
+    public class App 
+    {
+      public static void main(String[] args) {
+        ExcelStand excel = new TotalTable();
+        excel.createFile();
+        System.out.println("生成完毕！");
+      }
+    }
+    
+<div>
+	<img src="https://raw.githubusercontent.com/781973936/image/master/info.png"></img>
+<div>
+	
+### 获取物理表
+	public class App 
+	{
+		public static void main(String[] args) {
+			ExcelStand excel = new TotalTableInfo();
+			excel.createFile();
+			System.out.println("生成完毕！");
+		}
+	}
+<div>
+	<img src="https://raw.githubusercontent.com/781973936/image/master/detail.png"></img>
+<div>
+
 ## 项目结构
 > com.lanshan.mysqldb2table 
 >
@@ -25,31 +54,3 @@
 > > PoiGroup.java // poi操作接口
 >
 > > PoiOperation.java // poi操作具体实现
-## 具体使用
-### 获取表概况
-    public class App 
-    {
-      public static void main(String[] args) {
-        ExcelStand excel = new TotalTable();
-        excel.createFile();
-        System.out.println("生成完毕！");
-      }
-    }
-    
-<div>
-	<img src="https://raw.githubusercontent.com/781973936/image/master/info.png"></img>
-<div>
-	
-### 获取物理表
-	public class App 
-	{
-		public static void main(String[] args) {
-			ExcelStand excel = new TotalTableInfo();
-			excel.createFile();
-			System.out.println("生成完毕！");
-		}
-	}
-<div>
-	<img src="https://raw.githubusercontent.com/781973936/image/master/info.png"></img>
-<div>
-
