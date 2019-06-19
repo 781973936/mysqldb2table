@@ -13,4 +13,15 @@
 > > Field.java
 >
 > com.lanshan.mysqldb2table.excel
+>
+> > ExcelStand.java
+>
+> > TotalTable.java
+>
+> > TotalTableInfo.java
+>
 > com.lanshan.mysqldb2table.poi
+>
+> > PoiGroup.java
+>
+> > PoiOperation.java
