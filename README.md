@@ -1,27 +1,27 @@
 # mysqldb2table
 ## 项目结构
-> com.lanshan.mysqldb2table // sssss
+> com.lanshan.mysqldb2table 
 >
-> > App.java 启动类
+> > App.java // 启动类
 > 
-> com.lanshan.mysqldb2table.db
+> com.lanshan.mysqldb2table.db // 数据库操作包
 >
-> > Database.java
+> > Database.java // 连接数据库，获取数据库信息
 >
-> > Table.java
+> > Table.java // 表结构
 >
-> > Field.java
+> > Field.java // 字段结构
 >
-> com.lanshan.mysqldb2table.excel
+> com.lanshan.mysqldb2table.excel // excel操作
 >
-> > ExcelStand.java
+> > ExcelStand.java // excel操作接口
 >
-> > TotalTable.java
+> > TotalTable.java // 具体实现，获取表概况
 >
-> > TotalTableInfo.java
+> > TotalTableInfo.java // 具体实现，获取表详细信息
 >
-> com.lanshan.mysqldb2table.poi
+> com.lanshan.mysqldb2table.poi // poi操作
 >
-> > PoiGroup.java
+> > PoiGroup.java // poi操作接口
 >
-> > PoiOperation.java
+> > PoiOperation.java // poi操作具体实现
