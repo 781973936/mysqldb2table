@@ -2,7 +2,7 @@
 ## 项目结构
 > com.lanshan.mysqldb2table 
 >
-> > App.java // 启动类
+> > App.java                   --------------------- 启动类
 > 
 > com.lanshan.mysqldb2table.db // 数据库操作包
 >
