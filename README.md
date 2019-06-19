@@ -25,3 +25,13 @@
 > > PoiGroup.java // poi操作接口
 >
 > > PoiOperation.java // poi操作具体实现
+## 具体使用
+### 获取表概况
+public class App 
+{
+	public static void main(String[] args) {
+		ExcelStand excel = new TotalTable();
+		excel.createFile();
+		System.out.println("生成完毕！");
+	}
+}
