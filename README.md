@@ -1,6 +1,6 @@
 # mysqldb2table
 ## 项目结构
-> com.lanshan.mysqldb2table
+> com.lanshan.mysqldb2table // sssss
 >
 > > App.java 启动类
 > 
